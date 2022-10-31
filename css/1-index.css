@@ -2,3 +2,349 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    font-family: "Microsoft YaHei", SimHei, "微软雅黑", "黑体";
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* 头部 */
+header {
+    height: 76px;
+    width: 100%;
+    /* background-color: pink; */
+    box-shadow: -1px -1px 7px gray;
+}
+
+header .headerTop {
+    width: 65%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+header .headerTop .left {
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+header .headerTop .left img {
+    width: 68%;
+    margin-top: 10px;
+}
+
+header .headerTop .center {
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+
+header .headerTop .center li {
+    float: left;
+    margin-right: 48px;
+    margin-top: 30px;
+
+}
+
+header .headerTop .center li a {
+    color: #333333;
+    transition: color 0.2s ease;
+    font-size: 20px;
+}
+
+header .headerTop .center li .active {
+    color: #fe5341;
+}
+
+header .headerTop .center li a:hover {
+    color: #fe5341;
+}
+
+header .headerTop .right {
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+header .headerTop .right a:nth-of-type(1) {
+    /* display: inline-block; */
+    width: 33%;
+    height: 100%;
+    float: left;
+    margin-top: 28px;
+    background: url(img/search.png) no-repeat;
+}
+
+header .headerTop .right a:nth-of-type(2) {
+    /* display: inline-block; */
+    width: 33%;
+    height: 100%;
+    float: left;
+    /* margin-top: 28px; */
+    color: #fe5341;
+    transition: all 0.15s linear;
+    margin-top: 23px;
+    font-size: 16px;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 3px;
+    margin-right: 26px;
+    border: 1px #fe5341 solid;
+}
+
+header .headerTop .right a:nth-of-type(3) {
+    /* display: inline-block; */
+    width: 33%;
+    height: 100%;
+    float: left;
+    /* margin-top: 28px; */
+    color: #fe5341;
+    transition: all 0.15s linear;
+    margin-top: 23px;
+    font-size: 16px;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 3px;
+    border: 1px #fe5341 solid;
+}
+
+/* 聚焦图部分 */
+nav {
+    width: 100%;
+    height: 300px;
+    /* margin-top: 1px; */
+    box-shadow: -3px -1px 2px rgb(218, 214, 214);
+    background: url(img/original.jpg) no-repeat center top;
+}
+
+nav .text {
+    width: 65%;
+    height: 100%;
+    margin: 0 auto;
+    /* float: right; */
+    text-align: right;
+    color: white;
+}
+
+nav .text h2 {
+    font-size: 34px;
+    margin-bottom: 15px;
+    padding-top: 35px;
+    font-weight: normal;
+}
+
+nav .text .price span {
+    display: inline-block;
+    padding: 7px 12px;
+    border-radius: 3px;
+    font-size: 16px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, .3);
+}
+
+nav .text .time {
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+nav .text .btn a {
+    width: 242px;
+    height: 48px;
+    text-align: center;
+    display: inline-block;
+    line-height: 48px;
+    font-size: 24px;
+    border-radius: 3px;
+    background-color: #fe5341;
+    color: white;
+}
+
+/* 主体部分 */
+main .title {
+    width: 65%;
+    height: 30px;
+    font-size: 20px;
+    padding: 18px 0px;
+    margin: 0 auto;
+    font-weight: bold;
+    /* background-color: pink; */
+}
+
+main .swiperc {
+    width: 75%;
+    height: 295px;
+    margin: 0 auto;
+}
+
+main .swiperc .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiperc .swiper dl dt {
+    position: relative;
+    overflow: hidden;
+    width: 220px;
+    height: 286px;
+    float: left;
+    border: 1px solid #e6e9e9;
+    border-radius: 6px;
+    margin-right: 33px;
+}
+
+
+
+.swiperc .swiper dl dt:nth-of-type(4) {
+    margin-right: 0px;
+}
+
+.swiperc .swiper dl {
+    width: 87%;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    /* background-color: red; */
+}
+
+
+
+.swiperc .swiper .top-tip {
+    position: absolute;
+    line-height: 22px;
+    z-index: 10;
+    padding: 0 8px;
+    border-radius: 0 0 0 6px;
+    top: 0;
+    right: 0;
+    color: #f5e8e8;
+    font-size: 12px;
+}
+
+.swiperc .swiper .shoufa {
+    background-color: #fe5341;
+}
+
+.swiperc .swiper .tys {
+    background: #fbf4cb;
+    color: #c4a96a;
+}
+
+.swiperc .swiper .name {
+    font-size: 16px;
+    height: 48px;
+    font-weight: bold;
+    color: #333;
+    padding: 4px 8px;
+    text-align: center;
+}
+
+.swiperc .swiper .green {
+    text-align: center;
+    color: #80c269;
+}
+
+.swiperc .swiper .red {
+    text-align: center;
+    color: #fe5341;
+}
+
+.swiperc .swiper .green span {
+    border: 1px solid #80c269;
+    display: inline-block;
+    padding: 4px 12px;
+    margin: 0 5px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.swiperc .swiper .red span {
+    border: 1px solid #fe5341;
+    display: inline-block;
+    padding: 4px 12px;
+    margin: 0 5px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.swiperc .swiper .sq {
+    text-align: center;
+    color: #333;
+    margin: 5px;
+    margin-top: 10px;
+}
+
+.swiperc .swiper .sq span {
+    color: #fe5341;
+}
+
+.swiperc .swiper .current {
+    font-size: 14px;
+}
+
+/* 轮播图左右导航自定义 */
+/*去掉默认样式*/
+.swiper-button-prev:after {
+    display: none;
+}
+
+.swiper-button-next:after {
+    display: none;
+}
+
+/*自定义样式*/
+.swiper-button-prev {
+    width: 54px;
+    height: 200px;
+    background: url('img/prev.png') no-repeat;
+    /* background-color: red; */
+
+    position: absolute;
+    left: -60px;
+    top: 0px;
+}
+
+.swiper-button-next {
+    width: 54px;
+    height: 78px;
+    background: url('img/next.png') no-repeat;
+    right: 64px;
+}
+
+/* 主体第二部分 */
+main .content2 {
+    width: 100%;
+    height: 592px;
+    background-color: #f7f7f7;
+    margin-top: 20px;
+}
+
+main .content2 .title p {
+    width: 80%;
+    height: 100%;
+    float: left;
+}
+
+main .content2 .title span {
+    width: 20%;
+    height: 100%;
+    padding-right: 16px;
+    box-sizing: border-box;
+    float: left;
+    text-align: right;
+    font-size: 14px;
+    color: #fd6959;
+    font-weight: normal;
+    background: url(./img/readMore.png) no-repeat right 5px;
+}
