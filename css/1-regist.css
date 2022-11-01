@@ -2,3 +2,346 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    font-family: "Microsoft YaHei", SimHei, "微软雅黑", "黑体";
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* 头部 */
+header {
+    height: 76px;
+    width: 100%;
+    /* background-color: pink; */
+    box-shadow: -1px -1px 7px gray;
+}
+
+header .headerTop {
+    width: 65%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+header .headerTop .left {
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+header .headerTop .left img {
+    width: 68%;
+    margin-top: 10px;
+}
+
+header .headerTop .center {
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+
+header .headerTop .center li {
+    float: left;
+    margin-right: 48px;
+    margin-top: 30px;
+
+}
+
+header .headerTop .center li a {
+    color: #333333;
+    transition: color 0.2s ease;
+    font-size: 20px;
+}
+
+header .headerTop .center li .active {
+    color: #fe5341;
+}
+
+header .headerTop .center li a:hover {
+    color: #fe5341;
+}
+
+header .headerTop .right {
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+header .headerTop .right a:nth-of-type(1) {
+    /* display: inline-block; */
+    width: 33%;
+    height: 100%;
+    float: left;
+    margin-top: 28px;
+    background: url(img/search.png) no-repeat;
+}
+
+header .headerTop .right a:nth-of-type(2) {
+    /* display: inline-block; */
+    width: 33%;
+    height: 100%;
+    float: left;
+    /* margin-top: 28px; */
+    color: #fe5341;
+    transition: all 0.15s linear;
+    margin-top: 23px;
+    font-size: 16px;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 3px;
+    margin-right: 26px;
+    border: 1px #fe5341 solid;
+}
+
+header .headerTop .right a:nth-of-type(3) {
+    /* display: inline-block; */
+    width: 33%;
+    height: 100%;
+    float: left;
+    /* margin-top: 28px; */
+    color: #fe5341;
+    transition: all 0.15s linear;
+    margin-top: 23px;
+    font-size: 16px;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 3px;
+    border: 1px #fe5341 solid;
+}
+
+/* 注册部分 */
+main {
+    width: 100%;
+    height: 846px;
+    margin-top: 5px;
+    padding-top: 20px;
+    background: #f7f7f7;
+}
+
+main .form {
+    width: 65%;
+    height: 786px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 8px;
+    box-sizing: border-box;
+    border: 1px #d7d7d7 solid;
+}
+
+main .form .title {
+    position: relative;
+    padding: 20px 0 20px 25px;
+    font-size: 20px;
+    color: #474747;
+    font-weight: normal;
+}
+
+main .form .title span {
+    display: inline-block;
+    width: 6px;
+    height: 25px;
+    position: absolute;
+    left: -1px;
+    top: 22px;
+    background: #fe5341;
+}
+
+main .form .formin {
+    width: 40%;
+    height: 512px;
+    margin: 30px auto;
+
+}
+
+
+
+main .form .formin input {
+    background: #f7f7f7;
+    color: #a3a3a3;
+    height: 50px;
+    padding-left: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: 1px #eee solid;
+    border-radius: 10px;
+}
+
+main .form .formin p:nth-of-type(2) input,
+main .form .formin p:nth-of-type(3) input {
+    width: 60%;
+}
+
+main .form .formin p:nth-of-type(2) {
+    position: relative;
+}
+
+main .form .formin p:nth-of-type(2) img {
+    position: absolute;
+    top: 9px;
+    right: 0px;
+}
+
+main .form .formin p:nth-of-type(3) a {
+    display: inline-block;
+    width: 34%;
+    height: 50px;
+    text-align: center;
+    border: 1px #eee solid;
+    border-radius: 10px;
+    line-height: 50px;
+    color: #a3a3a3;
+    margin-left: 16px;
+}
+
+main .form .formin p {
+    margin-bottom: 20px;
+}
+
+main .form .formin p .btn {
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    background: #fe5341;
+    color: #fff;
+}
+
+/* 底部 */
+footer {
+    width: 100%;
+    height: 360px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    background-color: #555;
+    color: #aaa;
+}
+
+.foot {
+    width: 75%;
+    height: 300px;
+    margin: 0 auto;
+}
+
+footer .foot .fl {
+    float: left;
+}
+
+.foot_text {
+    width: 100%;
+    height: 210px;
+}
+
+.fo_1 {
+    overflow: hidden;
+}
+
+.fo_1 img {
+    width: 160px;
+    height: 160px;
+}
+
+.fo_2 {
+    width: 140px;
+    padding-left: 35px;
+    font-size: 13px;
+}
+
+.fo_2 img {
+    margin-bottom: 20px;
+}
+
+.fo_2 p {
+    margin-bottom: 15px;
+}
+
+.fo_3 {
+    width: 100px;
+    padding-left: 35px;
+}
+
+.fo_3 h4 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.fo_3 a {
+    font-size: 13px;
+    color: #aaa;
+}
+
+.fo_4 {
+    width: 140px;
+    padding-left: 35px;
+}
+
+.fo_4 h4 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.fo_4 p {
+    height: 20px;
+}
+
+.fo_4 span {
+    float: left;
+    width: 70px;
+    height: 20px;
+}
+
+.fo_4 a {
+    font-size: 13px;
+    color: #aaa;
+}
+
+.fo_5 {
+    width: 150px;
+    padding-left: 35px;
+}
+
+.fo_5 h4 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.fo_5 a {
+    font-size: 13px;
+    color: #aaa;
+}
+
+.fo_6 {
+    width: 180px;
+    padding-left: 35px;
+}
+
+.fo_6 h4 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.fo_6 a {
+    font-size: 13px;
+    color: #aaa;
+}
+
+.end {
+    padding-top: 80px;
+    font-size: 13px;
+    text-align: center;
+}
