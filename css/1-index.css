@@ -348,3 +348,281 @@ main .content2 .title span {
     font-weight: normal;
     background: url(./img/readMore.png) no-repeat right 5px;
 }
+
+main .content2 .text {
+    width: 65%;
+    height: 89%;
+    margin: 0 auto;
+    /* background-color: pink; */
+}
+
+main .content2 .text li {
+    width: 220px;
+    height: 231px;
+    line-height: 21px;
+    margin: 0 33px 20px 0;
+    float: left;
+    border: 1px solid #e6e9e9;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+main .content2 .text li a img {
+    border-radius: 6px 6px 0px 0px;
+
+}
+
+main .content2 .text li:hover img {
+    animation: go 1.2s infinite;
+}
+
+@keyframes go {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.7;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+main .content2 .text li:nth-of-type(4),
+main .content2 .text li:nth-of-type(8),
+main .content2 .text li:nth-of-type(12),
+main .content2 .text li:nth-of-type(16) {
+    margin-right: 0px;
+}
+
+main .content2 .text .bottom p {
+    color: #474747;
+    font-size: 14px;
+    padding: 2px 10px 17px 10px;
+
+}
+
+main .content2 .text .bottom .gray {
+    padding: 0 8px;
+}
+
+main .content2 .text .bottom .gray span {
+    color: #a3a3a3;
+    float: left;
+    font-size: 12px;
+}
+
+main .content2 .text .bottom .right span {
+    float: right;
+    /* display: inline-block; */
+    vertical-align: middle;
+    padding-left: 14px;
+    margin-left: 3px;
+}
+
+main .content2 .text .bottom .right span:nth-of-type(2) {
+    background: url(img/zan.png) no-repeat left 4px;
+}
+
+main .content2 .text .bottom .right span:nth-of-type(1) {
+    background: url(img/reply.png) no-repeat left 4px;
+}
+
+/* 主体第三部分 */
+main .content3 {
+    background-color: #ffffff;
+    height: 348px;
+}
+
+main .content3 .text .bottom .right span:nth-of-type(2) {
+    background: url(img/xin.png) no-repeat left 4px;
+}
+
+main .content3 .text ul li {
+    position: relative;
+}
+
+main .content3 .text ul .listbg {
+    position: absolute;
+    bottom: -15px;
+    /* left: 0px; */
+    width: 100%;
+    height: 19px;
+    background: url(img/listbg.jpg) no-repeat left bottom;
+    background-size: 221px 19px;
+}
+
+/* 主体第四部分 */
+main .content4 {
+    height: 1200px;
+}
+
+main .content4 p span {
+    display: block;
+    color: #a3a3a3;
+    font-size: 12px;
+}
+
+main .content4 .text .bottom .right span:nth-of-type(2) {
+    background: url(img/xin.png) no-repeat left 4px;
+}
+
+main .content4 .text .bottom .gray .price0 {
+    color: #fe5341;
+    font-size: 14px;
+}
+
+main .content4 .more {
+    width: 65%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+main .content4 .more .playmore {
+    background: url(img/more.png) no-repeat left center;
+    color: #fe5341;
+    padding-left: 24px;
+}
+
+/* 底部 */
+footer {
+    width: 100%;
+    height: 360px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    background-color: #555;
+    color: #aaa;
+}
+
+.foot {
+    width: 75%;
+    height: 300px;
+    margin: 0 auto;
+}
+
+footer .foot .fl {
+    float: left;
+}
+
+.foot_text {
+    width: 100%;
+    height: 210px;
+}
+
+.fo_1 {
+    overflow: hidden;
+}
+
+.fo_1 img {
+    width: 160px;
+    height: 160px;
+}
+
+.fo_2 {
+    width: 140px;
+    padding-left: 35px;
+    font-size: 13px;
+}
+
+.fo_2 img {
+    margin-bottom: 20px;
+}
+
+.fo_2 p {
+    margin-bottom: 15px;
+}
+
+.fo_3 {
+    width: 100px;
+    padding-left: 35px;
+}
+
+.fo_3 h4 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.fo_3 a {
+    font-size: 13px;
+    color: #aaa;
+}
+
+.fo_4 {
+    width: 140px;
+    padding-left: 35px;
+}
+
+.fo_4 h4 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.fo_4 p {
+    height: 20px;
+}
+
+.fo_4 span {
+    float: left;
+    width: 70px;
+    height: 20px;
+}
+
+.fo_4 a {
+    font-size: 13px;
+    color: #aaa;
+}
+
+.fo_5 {
+    width: 150px;
+    padding-left: 35px;
+}
+
+.fo_5 h4 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.fo_5 a {
+    font-size: 13px;
+    color: #aaa;
+}
+
+.fo_6 {
+    width: 180px;
+    padding-left: 35px;
+}
+
+.fo_6 h4 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.fo_6 a {
+    font-size: 13px;
+    color: #aaa;
+}
+
+.end {
+    padding-top: 80px;
+    font-size: 13px;
+    text-align: center;
+}
+
+/* 返回顶部 */
+.backTop {
+    position: fixed;
+    left: 1309.5px;
+    top: 267px;
+    display: block;
+    background: url(img/back.png) no-repeat #e8e8e8 center center;
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+}
+
+.backTop:hover {
+    background-color: #c6c6c6;
+}
