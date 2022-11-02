@@ -29,6 +29,16 @@ header .headerTop {
     margin: 0 auto;
 }
 
+header .right {
+    position: relative;
+}
+
+header .right span {
+    position: absolute;
+    top: 29px;
+    left: 41px;
+}
+
 header .headerTop .left {
     width: 20%;
     height: 100%;

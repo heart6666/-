@@ -35,17 +35,19 @@
         <div class="form">
             <h2 class="title"><span></span>注册极果</h2>
             <div class="formin">
-                <p><input type="text" placeholder="请输入登录手机号"></p>
-                <p><input type="text" placeholder="请输入图片校验码">
+                <p><input type="text" placeholder="请输入登录手机号" id="phone"><span class="message">请输入11位手机号</span></p>
+                <p><input type="text" placeholder="请输入图片校验码" id="email">
                     <img src="img/imgCode.jpg" alt="" width="132" height="35">
+                    <span class="message">请输入图片校验码</span>
                 </p>
-                <p><input type="text" placeholder="请输入4位数字验证码">
-                    <a href="javascript:void(0)">获取验证码</a>
+                <p><input type="text" placeholder="请输入4位数字验证码" id="yanzheng">
+                    <a href="javascript:void(0)" onclick="yz()" class="yz">获取验证码</a>
+                    <span class="message">请输入验证码</span>
                 </p>
-                <p><input type="text" placeholder="请输入用户名"></p>
-                <p><input type="text" placeholder="请输入新密码"></p>
-                <p><input type="text" placeholder="确认新密码"></p>
-                <p><input type="submit" value="立即注册" class="btn"></p>
+                <p><input type="text" placeholder="请输入用户名" id="username"><span class="message">请输入用户名</span></p>
+                <p><input type="text" placeholder="请输入新密码" id="psd"><span class="message">请输入新密码</span></p>
+                <p><input type="text" placeholder="确认新密码" id="psd2"><span class="message">请再次输入密码</span></p>
+                <p><input type="submit" value="立即注册" class="btn" id="submitBtn"></p>
             </div>
         </div>
     </main>
@@ -126,3 +128,5 @@
 </body>
 
 </html>
+<script src="./js/cookie.js"></script>
+<script src="./js/regist.js"></script>
