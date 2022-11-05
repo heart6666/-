@@ -9,7 +9,7 @@ btn_.onclick = function () {
     num++;
     people.innerHTML = 126 + num + '人申请';
     nums.innerHTML = 20 - num + '台';
-    if (nums.innerHTML == -1 + '台') {
+    if (num > 20) {
         alert('抢光了！')
         people.innerHTML = 146 + '人申请';
         nums.innerHTML = 0 + '台';
